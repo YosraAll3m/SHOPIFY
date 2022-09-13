@@ -30,7 +30,7 @@ class FavouritesScreen extends StatelessWidget {
                     mainAxisSpacing: 1.0,
                     crossAxisSpacing: 1.0,
                     childAspectRatio: 1/ 1.72,
-                    crossAxisCount: 2, //number of them
+                    crossAxisCount: 2,
                     children:
                     List.generate(
                         ShopifyHomeCubit.get(context).favoritesModel.data.data.length,

@@ -153,7 +153,6 @@ void changeFavorites(int productId)
       token: token,
     ).then((value){
       userModel = LoginResponse.fromJson(value.data);
-   //   print(userModel.data.name);
       emit(ShopifyGetUserDataSuccessState(userModel));
     }).catchError((error){
       print(error.toString());

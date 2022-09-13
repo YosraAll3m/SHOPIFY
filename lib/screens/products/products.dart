@@ -56,7 +56,6 @@ class ProductsScreen extends StatelessWidget {
               viewportFraction: 1.0,
               autoPlayInterval: Duration(seconds: 3),
               autoPlayAnimationDuration: Duration(seconds: 1),
-              //the best shape
               autoPlayCurve: Curves.fastOutSlowIn,
               scrollDirection: Axis.horizontal,
             )),
@@ -116,7 +115,7 @@ class ProductsScreen extends StatelessWidget {
             mainAxisSpacing: 1.0,
             crossAxisSpacing: 1.0,
             childAspectRatio: 1/ 1.72,
-            crossAxisCount: 2, //number of them
+            crossAxisCount: 2,
             children:
               List.generate(
                   model.data.products.length,
@@ -189,7 +188,6 @@ Widget builderGridView (ProductsModel model , context) => Padding(
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
                       fontSize: 14.0,
-                      //بيخلي الكلام قريب من بعضه
                       height: 1.3,
 
                     ),

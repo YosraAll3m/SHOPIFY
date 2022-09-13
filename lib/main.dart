@@ -10,8 +10,6 @@ import 'package:shopfiy_app/splash/spalsh_view.dart';
 import 'package:shopfiy_app/styles/components/constans.dart';
 import 'network/cache_helper.dart';
 
-
-
 void main()
 async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,9 +50,6 @@ class MyApp extends StatelessWidget {
       child :
       MaterialApp(
         debugShowCheckedModeBanner: false,
-        // theme: lightTheme,
-        //
-        // darkTheme: darkTheme,
         themeMode: ThemeMode.light,
         home: startWidget,
       ), );

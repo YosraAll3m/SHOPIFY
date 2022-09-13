@@ -117,7 +117,6 @@ Widget builderGridView ( model , context,{bool isOldPrice = false}) =>
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
                 fontSize: 14.0,
-                //بيخلي الكلام قريب من بعضه
                 height: 1.3,
 
               ),
@@ -214,7 +213,6 @@ Widget buildListItem ( model , context , {bool isOldPrice = false}) => Padding(
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   fontSize: 14.0,
-                  //بيخلي الكلام قريب من بعضه
                   height: 1.3,
 
                 ),
@@ -244,22 +242,6 @@ Widget buildListItem ( model , context , {bool isOldPrice = false}) => Padding(
                       ),
                     ),
                   Spacer(),
-                  // IconButton(
-                  //   onPressed: (){
-                  //     ShopHomeCubit.get(context).changeFavorites(model.id);
-                  //     //  print(model.id);
-                  //   },
-                  //   icon: CircleAvatar(
-                  //     radius: 15.0,
-                  //     backgroundColor:
-                  //     ShopHomeCubit.get(context).favorites[model.id]
-                  //         ? Colors.red
-                  //         : Colors.grey,
-                  //     child: Icon(Icons.favorite_border_outlined,
-                  //       size: 14.0,
-                  //
-                  //       color: Colors.white,),
-                  //   ),),
                 ],
               ),
 
